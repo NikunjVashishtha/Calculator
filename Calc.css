@@ -1,0 +1,72 @@
+html {
+    background: radial-gradient(circle,#c19bfd 31%,#6affd6 104%);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+body {
+    font-family: sans-serif;
+}
+#calc {
+    border: hidden; 
+    background-color: rgba(255, 255, 255, 0.637); 
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    font: 2rem black; 
+    border-collapse: collapse; 
+    border-radius: 0 0 15px 15px; 
+    font-family: sans-serif;
+}
+td {
+    text-align: center; 
+    padding: 2rem; 
+    align-items: stretch; 
+    width: 25%; 
+    transition: ease-out 0.5s;
+}
+tr {
+    border-collapse: collapse; 
+    width: 100%;
+}
+.number:hover,.operator:hover,.other_btns:hover {
+    background-color: rgb(255, 255, 255);
+}
+#neg {
+    border-radius: 0 0 0 15px;
+}
+#equate {
+    border-radius: 0 0 15px 0;
+}
+#cntnt {
+    font: 2rem black; 
+    text-align: right; 
+    border-radius: 15px 15px 0 0; 
+    font-family: sans-serif; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    display: block; 
+    margin: 0 auto; 
+    width: 96%; 
+    border: none; 
+    height: 4rem; 
+    padding: 0 1rem 0 0; 
+    transition: 2s;
+}
+#cntnt:focus {
+    outline: none; 
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#cntnt:hover {
+    outline: none; 
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#main {
+    width: 25rem; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0 30rem; 
+    flex-direction: column; 
+    border: none;
+}
